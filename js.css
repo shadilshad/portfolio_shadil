@@ -31,7 +31,6 @@
 body {
     background: #000;
     color: #fff;
-
 }
 
 /* Navigation Bar */
@@ -84,8 +83,6 @@ nav {
     border: 4px solid #ff3b3b;
     box-shadow: 0px 0px 20px rgba(255, 59, 59, 0.5);
     transition: 0.3s;
-}
-
 }
 
 .image img:hover {
@@ -287,14 +284,6 @@ section {
     color: #bbb;
     margin-bottom: 12px;
 }
-section {
-    height: 100vh; /* Each section takes full screen height */
-    padding: 80px 10%;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
-}
 
 /* Footer */
 footer {
@@ -313,4 +302,12 @@ html {
     color: #ff3b3b !important;
     font-weight: bold;
     border-bottom: 10px solid #ff3b3b;
+}
+section {
+    height: 100vh; /* Each section takes full screen height */
+    padding: 80px 10%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
 }
