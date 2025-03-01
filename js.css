@@ -284,6 +284,14 @@ section {
     color: #bbb;
     margin-bottom: 12px;
 }
+section {
+    height: 100vh; /* Each section takes full screen height */
+    padding: 80px 10%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
 
 /* Footer */
 footer {
